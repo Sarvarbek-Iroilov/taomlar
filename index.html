@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <script src="js/file.js"></script>
+    
+    <header class="bosh">
+        <div class="cantainer">
+           <div class="flex">
+                <div class="one">
+                    <div class="flex">
+                        <button onclick="boss()" class="btn" ><i  class="fal fa-bars"></i></button>
+                        <div class="logo">
+                                <img src="image/youtube.jpg" alt="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="two flex">
+                    <div class="search flex">
+                        <div class="keybord">
+                            <input onclick="dom()" type="search" placeholder="Search" >
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <i class="fal fa-search"></i>
+                    </div>
+                    <i onclick="mic()" class="fas fa-microphone"></i>
+
+                </div>
+                <div class="three">
+                    <div class="icons flex">
+                        <i onclick="live()" class="fal fa-video-plus"></i>
+                        <i onclick="plus()" class="fas fa-border-none"></i>
+                        <i onclick="bell()" class="far fa-bell"></i>
+                        <img onclick="users()" class="user" src="image/user.jpg" alt="">
+                    </div>
+
+                </div>
+           </div>
+        </div>
+    </header>
+    <div class="logo__dark">
+        <img src="image/youtube_logo_dark.jpg" alt="logo_dark">
+    </div>
+
+    <div class="user-list">
+        <div class="user-name">
+            <div class="flex">
+                <img class="users" src="image/user.jpg" alt=" users">
+                <div>
+                    <h2>Sarvar Isroilov</h2>
+                    <a href="#">Manage Your Google Account</a>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#"><i class="far fa-user"></i>
+                Your channel</a></li>
+            <li><a href=""><i class="fal fa-usd-square"></i>
+                Purchases and memberships</a></li>
+            <li><a href=""><i class="fas fa-cog"></i>
+                YouTube Studio  </a></li>
+            <li><a href=""><i class="fas fa-user-circle"></i>Switch account</a></li>
+            <li><a href=""><i class="fal fa-sign-out"></i>
+                Sign out</a></li>
+            <li><a onclick="light()" href="#"><i class="fas fa-eclipse-alt"></i>Appearance: Light</a></li>
+            <li><a href=""><i class="fal fa-language"></i>Language: British English</a></li>
+            <li><a href=""><i class="fal fa-globe"></i>
+                Location: India</a></li>
+            <li><a href=""><i class="fas fa-cog"></i>Settings</a></li>
+            <li><a href=""><i class="fas fa-user-shield"></i>Your data in YouTube</a></li>
+            <li><a href=""><i class="far fa-question-circle"></i>Help</a></li>
+            <li><a href=""><i class="fal fa-comment-alt-exclamation"></i>Send feedback</a></li>
+            <li><a href=""><i class="fas fa-keyboard"></i>Keyboard shortcuts</a></li>
+            <li>Restricted Mode: Off</li>
+        </ul>
+    </div>
+    <div class="back__color">
+
+    </div>
+
+    <div class="light">
+        <div class="item">
+            <div onclick="arrow()" class="flex"><i class="fal fa-arrow-left"></i><p> Appearance</p>
+            </div>
+         </div>
+            <p><small>Setting applies to this browser only
+            </small></p>
+            <ul>
+                <li onclick="darkbtn()">Dark theme</li>
+                <li onclick="darkbtn()">Light theme</li>
+            </ul>
+    </div>
+    <div class="small">
+        <ul>
+            <li><a href="#"><i class="fab fa-youtube"></i>Upload video</a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i>Go live</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="cam" >
+        <ul>
+            <li><a href="#"><i class="fab fa-youtube"></i>YouTube TV</a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i>YouTube Music   </a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i>YouTube Music   </a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i>Creators Academy   </a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i>YouTube for Artists  </a></li>
+        </ul>
+    </div>
+
+
+    <div class="qungiroq " onclick="bell()">
+        <div class="flex"><h3>Notifications</h3><i class="fas fa-cog"></i></div>
+        <div class="markaz">
+            <div class="bell-icon">
+                <i class="fad fa-bell"></i>
+                <h2> Your notifications live here</h2>
+                <p>Subscribe to your favourite channels to recieve notifications about their latest videos</p>
+            </div>
+        </div>
+    </div>
+    <div class="audio ">
+        <div class="option">
+            <h2>Listening...</h2>
+            <i onclick="mic()"  class="fal fa-times"></i>
+        </div>
+       <div class="animation">
+            <div class="center ">
+                <i  class="fas fa-microphone"></i>
+            </div>
+       </div>
+    </div>
+    <div class="search-list ">
+        <ul>
+            <li>ui ux design </li>
+            <li> ui ux design course   </li>
+            <li>ui ux design tutorial in hindi</li>
+            <li> 
+                ui ux design tutorial for beginners</li>
+            <li> ui ux designer salary in india</li>
+            <li> ui ux design course hindi</li>
+            <li>ui ux design malyalam</li>
+            <li> ui ux design tutorial illustator</li>
+            <li> ui ux design full course</li>
+            <li>ui ux designer day in the life</li>
+            <li>ui ux design tutorial in tamil</li>
+            <li>ui ux design tutorial figma</li>
+            <li>ui ux design tutorial photoshop</li>
+        </ul>
+    </div>
+    <nav>
+        <div class="cantainer">
+            <div id="navbar" >
+                <ul class="flex">
+                    <li ><a class="activ" href="#">All</a></li>
+                    <li><a href="#">User Interface design</a></li>
+                    <li><a href="#">UI/UX</a></li>
+                    <li><a href="#">Logos</a></li>
+                    <li><a href="#">Computer science</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Live</a></li>
+                    <li><a href="#">Stock Market</a></li>
+                    <li><a href="#">Mixes</a></li>
+                    <li><a href="#">Lo-fi Music</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+       
+        
+        
+    </nav>
+    <div id="left" >
+        <div class="cantainer">
+            <ul>
+                <li><a href="#"><i class="fas fa-home-alt"></i>Home</a></li>
+                <li><a href="#"><i class="fal fa-compass"></i>Explore</a></li>
+                <li><a href="#"><img src="image/Vector.png" alt="nav"> Subscriptions</a></li>
+                <li><a href="#"><img src="image/Vector (1).png" alt="nav"> Library</a></li>
+                <li><a href="#"><img src="image/pros (2).png" alt="nav"> History</a></li>
+                <li><a href="#"><img src="image/pros (1).png" alt="nav"> Your Videos</a></li>
+                <li><a href="#"><img src="image/istoriy.png" alt="nav"> Watch Later</a></li>
+                <li><a href="#"><img src="image/like_icon.png" alt="nav"> Liked Videos</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="doimiy-panel"> 
+        <div class="cantainer">
+            <ul>
+                <li id="active"><a  href="#"><i class="fas fa-home-alt"></i>Home</a></li>
+                <li><a href="#"><i class="fal fa-compass"></i>Explore</a></li>
+                <li><a href="#"><i class="fal fa-microphone"></i>Subscriptions</a></li>
+                <li><a href="#"><i class="fal fa-play-circle"></i>Library</a></li>
+                
+            </ul>
+        </div>
+    </div>
+   <section id="cantent">
+       <div class="cantainer-cantent ">
+           <div class="box">
+               <div class="video">
+                   <div class="element">
+                        <div class="vid">
+                            <iframe  width="853" height="480" src="https://www.youtube.com/embed/fLfhxCYFcVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="text">
+                            <div class="flex">
+                                <img src="https://yt3.ggpht.com/kqNemTxobBIqIx63wFRaB5k2LgdtR3ad1w2Gi7au4DKPaK_O7Q6pmMwGyBb78NmIyXYjWnfQtQ=s88-c-k-c0x00ffffff-no-rj" alt="user">
+                                <div>
+                                    <h2>Aksiyalar va Treydingni o’rganamiz. Bu Halolmi?</h2>
+                                    <p>MFaktor</p>
+                                    <p>130M views • 1 Month ago</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                   </div>
+               </div>
+               <div class="video">
+                        <div class="element">
+                            <div class="vid">
+                                <iframe width="853" height="480" src="https://www.youtube.com/embed/OP6W7Gx8zQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="text">
+                                <div class="flex">
+                                    <img src="https://yt3.ggpht.com/ytc/AKedOLQpmVm8TD3s7Hfg0hj74eQqbaNICK2DbFtZXdC9=s48-c-k-c0x00ffffff-no-rj" alt="tv">
+                                    <div>
+                                        <h2>"FUTBOLTV STUDIYASI." 11.10.21</h2>
+                                        <p>FUTBOL TV Uzbekistan</p>
+                                        <p>1M views • 1 Month ago</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+               </div>
+               <div class="video">
+                <div class="element">
+                    <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/WrRO8tq6Zuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="text">
+                        <div class="flex">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLQm88Sce48XzUizQ_PUADRFGKCv51LeDwMB7sL9iw=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                            <div>
+                                <h2>Deontay Wilder vs Tyson Fury </h2>
+                                <p> Top Rank Boxing</p>
+                                <p>130M views • 1 Month ago</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+               </div>
+               <div class="video">
+                <div class="element">
+                    <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/Z-VfaG9ZN_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="text">
+                        <div class="flex">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLRLLwKZPAC0lqMM8kQ-2a0Z6a5SC3Q3OB4sod2z=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                            <div>
+                                <h2>Programming / Coding / Hacking music vol</h2>
+                                <p>
+                                    JimTV</p>
+                                <p>130M views • 1 Month ago</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+               </div>
+
+
+               <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/To8ZopbznbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/LUDrcL8ATVYm-3_h-JUB_L0WtpZinNV3e_a3gQ48SCOXGxCQwlDOdI9OusXS9XNHsgsBQGWZUA=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>Konsta - O'zbegim (Official Music Video)</h2>
+                                 <p>Konsta Uz</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+            
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/C0nlD2PKpng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/ytc/AKedOLTa4vV4KUByz26T-Mznl5TcZMBCS2CP3sXJhb3I=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>Bu voqea Hollivud filmining senariysiga o‘xshaydi | SUBYEKTIV</h2>
+                                 <p>SUBYEKTIV</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/4lg2218Y9x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/ytc/AKedOLSCcxK2YYo2CRjnQUBbXn8SdssNKap9Fes9nf-3Rw=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>Jannatni qanday kutish kerak? | @Abdukarim Mirzayev</h2>
+                                 <p>Xizr Abdulkarim</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="818" height="436" src="https://www.youtube.com/embed/6NbczxUJFx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/ytc/AKedOLSjoXVPOCMHEL9QJyzH-GBujy7xxAVnOCy2FTPAYg=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>React JS 2-dars, React ni o'rnatish</h2>
+                                 <p>Javohir Berdiyev</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/j8j0Oo8uq-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/ytc/AKedOLSAxQjnUu0J8p-Dt6Xq6An2PnTDQcTMXo1D4AWv5A=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>Izzat Shukurov - Assalamu Alayka ( Official Music Video )</h2>
+                                 <p>IZZAT SHUKUROV</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+            
+
+            
+
+
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="640" height="480" src="https://www.youtube.com/embed/vcrV8iiNTR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/ytc/AKedOLRuXwjTHTmksRi7ucWEaUnbc3rpFTPPzWB38mI_4A=s88-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>McGregor’s Family Reactions to Khabib vs McGregor - UFC 229</h2>
+                                 <p>
+                                    The Face of the Fight Game</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/wWvrOhWA9Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://yt3.ggpht.com/zkLoT8VmIAih-f9FxQer4qUQgxs6gtfBqJC2VeYeWtOAlQpPNlj2ATB02gPmEhRIe9RMiZTadg=s48-c-k-c0x00ffffff-no-rj" alt="user">
+                             <div>
+                                 <h2>O‘zbekiston 5:1 Malayziya. Shunaqa o‘ynasak bo‘larkanu?! Tahlil</h2>
+                                 <p>Xayrulla HAMIDOV</p>
+                                 <p>1M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="video">
+                <div class="element">
+                     <div class="vid">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/v4dzXyqO1tY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="text">
+                         <div class="flex">
+                             <img src="https://i.ytimg.com/vi/2XDtRjHrNXo/maxresdefault.jpg" alt="user">
+                             <div>
+                                 <h2>⚜MiyaGi & Эндшпиль⚜ Лучшие Песни</h2>
+                                 <p>
+                                    Russian Music Mix</p>
+                                 <p>37M views • 1 Month ago</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+           </div>
+       </div>
+
+   </section>
+  
+    
+</body>
+</html>
